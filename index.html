@@ -3,9 +3,502 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SonicPulse | Music Production</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-[#020617] text-white selection:bg-purple-500/30"> 
+
+    <div class="fixed inset-0 -z-10 overflow-hidden">
+        <div class="absolute top-[20%] -left-[10%] w-[600px] h-[600px] bg-purple-700/20 blur-[120px] rounded-full"></div>
+        
+        <div class="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-orange-600/15 blur-[120px] rounded-full"></div>
+        
+        <div class="absolute -bottom-[10%] -right-[10%] w-[500px] h-[500px] bg-blue-900/20 blur-[140px] rounded-full"></div>
+    </div>
+
+  <!-- Header -->
+<nav class="flex items-center justify-between px-6 py-4 sticky top-0 z-50 bg-[#020617]/50 backdrop-blur-md border-b border-white/10">
+<div class="flex items-center gap-3 group">
+<div class="w-9 h-9 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center shadow-lg shadow-orange-500/20">
+<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tight text-white">SonicPulse</span>
+</div>
+<ul class="hidden md:flex space-x-6 text-sm text-slate-300">
+<li class="hover:text-white cursor-pointer transition">Home</li>
+<li class="hover:text-white cursor-pointer transition">Beats</li>
+<li class="hover:text-white cursor-pointer transition">Services</li>
+<li class="hover:text-white cursor-pointer transition">Pricing</li>
+</ul>
+<button class="bg-white/10 hover:bg-white/20 text-white px-5 py-2 rounded-full text-sm font-medium border border-white/20 transition">
+  Sign Up</button>
+</nav>
+
+<!-- Main Content -->
+ <!--First section-->
+ <section class="relative min-h-screen flex flex-col items-center justify-center text-center px-4">
+<div class="relative z-10 flex items-center gap-2 mb-8 bg-white/5 border border-white/10 px-4 py-1 rounded-full text-[13px] font-medium text-slate-300">
+<span class="opacity-70">Smart, Fast, Always Creative.</span>
+<span class="text-orange-500 font-semibold hover:underline cursor-pointer">Launch Studio</span>
+</div>
+
+<div class="relative z-10 max-w-5xl">
+<h1 class="text-5xl md:text-[80px] font-bold mb-8 leading-[1.05] tracking-tight text-white">
+Build, Produce & <br> 
+<span class="text-slate-100/60">Mix Hits in Seconds.</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
+Professional tools for artists who draw inspiration from music and art. 
+Translate your vision into global sounds—powered by your creativity.
+</p>
+
+<!--Create account button-->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="bg-[#C2410C] hover:bg-[#EA580C] text-white px-10 py-4 rounded-full font-semibold text-lg transition-all w-full sm:w-auto shadow-lg shadow-orange-900/20">
+ Create Account
+</button>
+  
+<!--Watch Demo button-->
+<button class="flex items-center gap-2 bg-white/5 hover:bg-white/10 text-white border border-white/20 px-10 py-4 rounded-full font-semibold text-lg transition-all w-full sm:w-auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+Watch Demo</button>
+</div>
+</div>
+</section>
+
+<!--Section of brands-->
+<section class="relative py-24 px-6">
+<div class="max-w-6xl mx-auto text-center mb-32">
+<p class="text-slate-500 text-sm font-medium tracking-widest mb-10 uppercase">
+        Trusting by leading brands, including —
+</p>
+<div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-50 grayscale hover:grayscale-0 transition-all duration-700">
+<div class="flex items-center gap-2 text-white">
+<svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.508 17.302c-.218.358-.674.474-1.025.256-2.848-1.74-6.433-2.133-10.654-1.17a.752.752 0 1 1-.332-1.465c4.618-1.056 8.583-.6 11.755 1.34.352.218.467.674.256 1.039zm1.47-3.262c-.274.444-.85.584-1.288.31-3.26-2.003-8.23-2.583-12.086-1.412a.936.936 0 1 1-.544-1.792c4.406-1.336 9.89-.684 13.61 1.604.437.27.577.848.308 1.29zm.126-3.4c-3.91-2.322-10.364-2.535-14.126-1.393a1.125 1.125 0 0 1-.655-2.155c4.322-1.313 11.437-1.063 15.93 1.605a1.125 1.125 0 1 1-1.149 1.943z"/></svg>
+<span class="text-xl font-bold">Spotify</span>
+</div>
+<span class="text-2xl font-black tracking-widest text-white">ROLAND</span>
+<div class="flex items-center gap-2 text-white">
+<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+<span class="text-xl font-semibold italic">Instagram</span>
+</div>
+<span class="text-2xl font-black italic text-white underline decoration-orange-500 underline-offset-4">Fender</span>
+                <div class="flex items-center gap-3 text-white">
+                    <div class="flex gap-1"><div class="w-1 h-6 bg-white"></div><div class="w-1 h-6 bg-white"></div><div class="w-1 h-6 bg-white"></div><div class="w-1 h-6 bg-white"></div></div>
+                    <span class="text-xl font-medium">Ableton</span>
+                </div>
+            </div>
+        </div>
+        
+        <!--Cards-->
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Agent features</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto text-lg">
+                    Design sounds that research, plan, and execute hits — all powered by your artistic vision.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="group bg-white/5 border border-white/10 p-10 rounded-3xl backdrop-blur-md transition-all duration-500 hover:-translate-y-3 hover:bg-white/10 hover:border-orange-500/40 cursor-pointer">
+                    <div class="mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg></div>
+                    <h3 class="text-xl font-bold text-white mb-4">Autonomous Beats</h3>
+                    <p class="text-slate-400 leading-relaxed">Beats that adapt, evolve, and learn your style step-by-step.</p>
+                </div>
+                <div class="group bg-white/5 border border-white/10 p-10 rounded-3xl backdrop-blur-md transition-all duration-500 hover:-translate-y-3 hover:bg-white/10 hover:border-orange-500/40 cursor-pointer">
+                    <div class="mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l5 5"/><path d="m11 11 1 1"/></svg></div>
+                    <h3 class="text-xl font-bold text-white mb-4">Artistic Memory</h3>
+                    <p class="text-slate-400 leading-relaxed">Our system retains your visual art style and improves over time.</p>
+                </div>
+                <div class="group bg-white/5 border border-white/10 p-10 rounded-3xl backdrop-blur-md transition-all duration-500 hover:-translate-y-3 hover:bg-white/10 hover:border-orange-500/40 cursor-pointer">
+                    <div class="mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                    <h3 class="text-xl font-bold text-white mb-4">Lyric Execution</h3>
+                    <p class="text-slate-400 leading-relaxed">Fast lyric processing and translation with multi-language tasking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Use cases-->
+<section class="relative py-32 px-6">
+    <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-24">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">From idea to global hit <br> quickly and effortlessly.</h2>
+            <p class="text-slate-400 max-w-xl mx-auto text-lg">
+                Empower your music career with AI tools that optimize production and accelerate your creative performance.
+            </p>
+        </div>
+
+        <div class="relative">
+            <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-orange-500/50 to-transparent -translate-x-1/2"></div>
+
+            <div class="relative flex flex-col md:flex-row items-center justify-between mb-32 group">
+                <div class="w-full md:w-[45%] mb-8 md:mb-0">
+                    <div class="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+                        <img src="arrow2.jpeg" alt="Melody creation" class="w-full aspect-[4/3] object-cover">
+                    </div>
+                </div>
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#020617] border border-orange-500 text-orange-500 items-center justify-center font-bold z-10 shadow-[0_0_15px_rgba(249,115,22,0.3)]">01</div>
+                <div class="w-full md:w-[45%] text-left md:pl-12">
+                    <h3 class="text-3xl font-bold mb-4">Start with a melody</h3>
+                    <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                        Hum a tune or play a simple riff. Our engine interprets your idea and creates a full professional arrangement for you in seconds.
+                    </p>
+                    <a href="#" class="flex items-center gap-2 text-white font-medium hover:text-orange-500 transition">
+                        Learn More 
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row-reverse items-center justify-between mb-32 group">
+                <div class="w-full md:w-[45%] mb-8 md:mb-0">
+                    <div class="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+                        <img src="keke.jpg" alt="Mixing audio" class="w-full aspect-[4/3] object-cover">
+                    </div>
+                </div>
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#020617] border border-orange-500 text-orange-500 items-center justify-center font-bold z-10 shadow-[0_0_15px_rgba(249,115,22,0.3)]">02</div>
+                <div class="w-full md:w-[45%] text-left md:pr-12">
+                    <h3 class="text-3xl font-bold mb-4">Adjust and personalize</h3>
+                    <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                        Fine-tune your levels, swap out instruments, and add artistic personality. Make the track sound exactly the way you want with simple controls.
+                    </p>
+                    <a href="#" class="flex items-center gap-2 text-white font-medium hover:text-orange-500 transition">
+                        Learn More 
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row items-center justify-between group">
+                <div class="w-full md:w-[45%] mb-8 md:mb-0">
+                    <div class="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+                        <img src="lili.jpg" alt="Laptop release" class="w-full aspect-[4/3] object-cover">
+                    </div>
+                </div>
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#020617] border border-orange-500 text-orange-500 items-center justify-center font-bold z-10 shadow-[0_0_15px_rgba(249,115,22,0.3)]">03</div>
+                <div class="w-full md:w-[45%] text-left md:pl-12">
+                    <h3 class="text-3xl font-bold mb-4">Launch & Stream</h3>
+                    <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                        Export your masterpiece and let it run. Distribute to Spotify and Apple Music automatically while we handle the metadata in the background.
+                    </p>
+                    <a href="#" class="flex items-center gap-2 text-white font-medium hover:text-orange-500 transition">
+                        Learn More 
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Testimonial section-->
+<section class="relative py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="text-center mb-20">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                Hear what our trusted users <br> say about SonicPulse.
+            </h2>
+            <p class="text-slate-400 max-w-xl mx-auto text-lg">
+                Empower your music career with AI tools that optimize your creative flow and accelerate your release schedule.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            </div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
     
+    <div class="group relative bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-white/10 hover:border-orange-500/30">
+        <div class="flex justify-between items-start mb-6">
+            <div>
+                <p class="text-white font-bold">Songwriter</p>
+            </div>
+            <img src="nail.jpg" alt="Lucas" class="w-10 h-10 rounded-full border border-white/20 grayscale group-hover:grayscale-0 transition-all">
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed italic">
+            "The lyric engine is frighteningly good. It doesn't just translate words; it understands the rhyme scheme and the emotional weight of the song. My global reach has doubled."
+        </p>
+        <p class="mt-6 text-slate-500 text-xs font-medium">— Lucas Thorne</p>
+    </div>
+
+    <div class="group relative bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-white/10 hover:border-orange-500/30">
+        <div class="flex justify-between items-start mb-6">
+            <div>
+                <p class="text-white font-bold">Touring DJ</p>
+            </div>
+            <img src="sun set.jpeg" alt="Marcus" class="w-10 h-10 rounded-full border border-white/20 grayscale group-hover:grayscale-0 transition-all">
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed italic">
+            "I use SonicPulse to create custom edits of my tracks on the road. The speed is insane—I can have a new VIP mix ready for my set in under ten minutes."
+        </p>
+        <p class="mt-6 text-slate-500 text-xs font-medium">— DJ Kinetix</p>
+    </div>
+
+    <div class="group relative bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-white/10 hover:border-orange-500/30">
+        <div class="flex justify-between items-start mb-6">
+            <div>
+                <p class="text-white font-bold">Studio Engineer</p>
+            </div>
+            <img src="stable.jpeg" alt="Elena" class="w-10 h-10 rounded-full border border-white/20 grayscale group-hover:grayscale-0 transition-all">
+        </div>
+        <p class="text-slate-300 text-sm leading-relaxed italic">
+            "The AI-driven stem separation is the cleanest I've ever heard. It’s allowed me to breathe new life into old vocal recordings that I thought were unusable."
+        </p>
+        <p class="mt-6 text-slate-500 text-xs font-medium">— Elena Vance</p>
+    </div>
+   </div>
+    </div>
+</section>
+ 
+<!--Frequently Asked Questions-->
+<section class="relative py-24 px-6">
+    <div class="max-w-3xl mx-auto">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-white mb-4">FAQ's</h2>
+            <p class="text-slate-400">
+                Looking for answers to your frequently asked questions? Check out our FAQ's section below to find.
+            </p>
+        </div>
+
+        <div class="space-y-4">
+            
+            <details class="group bg-white/5 border border-white/10 rounded-2xl overflow-hidden backdrop-blur-md transition-all duration-300 hover:border-orange-500/30">
+                <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                    <span class="text-white font-medium">Do I need music theory or production experience to use SonicPulse?</span>
+                    <span class="transition-transform duration-300 group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="m6 9 6 6 6-6"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-slate-400 leading-relaxed text-sm">
+                    Not at all! SonicPulse is designed for creators of all levels. Whether you're humming a melody into your phone or dragging in MIDI files, our AI interprets your intent and helps you build professional-grade arrangements instantly.
+                </div>
+            </details>
+
+            <details class="group bg-white/5 border border-white/10 rounded-2xl overflow-hidden backdrop-blur-md transition-all duration-300 hover:border-orange-500/30">
+                <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                    <span class="text-white font-medium">Who owns the rights to the music generated by the AI?</span>
+                    <span class="transition-transform duration-300 group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="m6 9 6 6 6-6"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-slate-400 leading-relaxed text-sm">
+                    You do. Any music produced, mixed, or mastered using SonicPulse belongs 100% to you. We don't take any royalties or ownership stakes in your creative work.
+                </div>
+            </details>
+
+            <details class="group bg-white/5 border border-white/10 rounded-2xl overflow-hidden backdrop-blur-md transition-all duration-300 hover:border-orange-500/30">
+                <summary class="flex items-center justify-between p-6 cursor-pointer list-none">
+                    <span class="text-white font-medium">Does SonicPulse support collaborative production?</span>
+                    <span class="transition-transform duration-300 group-open:rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="m6 9 6 6 6-6"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-slate-400 leading-relaxed text-sm">
+                    Yes! Our "Studio Link" feature allows you to invite collaborators to listen to, edit, or comment on your projects in real-time, no matter where they are in the world.
+                </div>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+<!--Pricing details-->
+<section class="relative py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Our Pricing Plans</h2>
+            <p class="text-slate-400 max-w-xl mx-auto text-lg">
+                A visual collection of our most recent works — each piece crafted with intention, emotion and style.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="group relative bg-white/5 border border-white/10 p-8 rounded-[40px] backdrop-blur-xl flex flex-col h-full transition-all duration-500 hover:border-white/20">
+                <div class="flex justify-end mb-4">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-slate-300 text-[10px] font-bold uppercase tracking-wider">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        Starter
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-5xl font-bold text-white">$19</span>
+                        <span class="text-slate-500 text-sm">/month</span>
+                    </div>
+                    <p class="text-slate-400 mt-2">For individuals and small teams</p>
+                </div>
+                <button class="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-semibold mb-10 hover:bg-white/10 transition-colors">
+                    Get Started
+                </button>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        Up to 10 projects
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        10 AI tasks/month
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic opacity-50">
+                        <div class="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        Advanced stem export
+                    </li>
+                </ul>
+            </div>
+
+            <div class="group relative bg-white/5 border border-orange-500/50 p-8 rounded-[40px] backdrop-blur-xl flex flex-col h-full transition-all duration-500 scale-105 shadow-[0_0_50px_rgba(249,115,22,0.15)]">
+                <div class="flex justify-end mb-4">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-500 text-[10px] font-bold uppercase tracking-wider">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        Professional
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-5xl font-bold text-white">$49</span>
+                        <span class="text-slate-500 text-sm">/month</span>
+                    </div>
+                    <p class="text-slate-400 mt-2">For growing teams and startups</p>
+                </div>
+                <button class="w-full py-4 rounded-2xl bg-white text-black font-bold mb-10 hover:bg-slate-200 transition-colors shadow-lg shadow-white/10">
+                    Upgrade Now
+                </button>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-orange-500/20 flex items-center justify-center"><svg class="w-3 h-3 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        Unlimited AI tasks
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-orange-500/20 flex items-center justify-center"><svg class="w-3 h-3 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        Full Studio Link access
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-orange-500/20 flex items-center justify-center"><svg class="w-3 h-3 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        Priority chat support
+                    </li>
+                </ul>
+            </div>
+
+            <div class="group relative bg-white/5 border border-white/10 p-8 rounded-[40px] backdrop-blur-xl flex flex-col h-full transition-all duration-500 hover:border-white/20">
+                <div class="flex justify-end mb-4">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-slate-300 text-[10px] font-bold uppercase tracking-wider">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+                        Enterprise
+                    </span>
+                </div>
+                <div class="mb-8">
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-5xl font-bold text-white">$149</span>
+                        <span class="text-slate-500 text-sm">/month</span>
+                    </div>
+                    <p class="text-slate-400 mt-2">For enterprises and agencies</p>
+                </div>
+                <button class="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-semibold mb-10 hover:bg-white/10 transition-colors">
+                    Contact Sales
+                </button>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        Custom AI training models
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        SLA uptime guarantee
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-300 text-sm italic">
+                        <div class="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center"><svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg></div>
+                        24/7 premium support
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Last section-->
+<section class="relative py-32 px-6">
+    <div class="max-w-5xl mx-auto">
+        
+        <div class="relative group overflow-hidden rounded-[40px] bg-white/5 border border-white/10 p-12 md:p-24 text-center backdrop-blur-2xl">
+            
+            <div class="absolute -top-24 -left-24 w-64 h-64 bg-orange-500/10 blur-[100px] rounded-full"></div>
+            <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-purple-500/10 blur-[100px] rounded-full"></div>
+
+            <div class="relative z-10 space-y-8">
+                <h2 class="text-4xl md:text-6xl font-bold text-white tracking-tight">
+                    Ready to drop <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">your next hit?</span>
+                </h2>
+                
+                <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                    Join thousands of producers and artists turning their sonic visions into reality. Get started for free, no credit card required.
+                </p>
+
+                <div class="pt-4">
+                    <button class="inline-flex items-center gap-2 px-8 py-4 bg-orange-600 hover:bg-orange-500 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-[0_0_30px_rgba(234,88,12,0.3)] group">
+                        Try SonicPulse Now
+                        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+  <footer class="relative pt-24 pb-12 px-6 border-t border-white/5">
+    <div class="max-w-7xl mx-auto flex flex-col items-center">
+        
+        <div class="flex items-center gap-2 mb-10 transition-transform hover:scale-105 cursor-pointer">
+            <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-700 rounded-xl flex items-center justify-center shadow-lg shadow-orange-500/20">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                </svg>
+            </div>
+            <span class="text-2xl font-bold tracking-tighter text-white">SonicPulse</span>
+        </div>
+
+        <nav class="flex flex-wrap justify-center gap-x-10 gap-y-4 mb-12">
+            <a href="#" class="text-slate-400 hover:text-white transition-colors text-sm font-medium">Terms of Service</a>
+            <a href="#" class="text-slate-400 hover:text-white transition-colors text-sm font-medium">Privacy Policy</a>
+            <a href="#" class="text-slate-400 hover:text-white transition-colors text-sm font-medium">Security</a>
+            <a href="#" class="text-slate-400 hover:text-white transition-colors text-sm font-medium">Sitemap</a>
+        </nav>
+
+        <div class="flex items-center gap-8 mb-16">
+            <a href="#" class="text-slate-500 hover:text-orange-500 transition-all duration-300 transform hover:-translate-y-1">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm8.16 5.2c.57.94.94 2 1.05 3.12-1.3-.32-2.5-.42-3.6-.32-.23-.65-.5-1.3-.8-1.92 1.38-.28 2.5-.5 3.35-.88zm-5.78-1.74c.3.6.56 1.23.8 1.86-1.12.12-2.34.12-3.66 0-.2-.73-.46-1.42-.78-2.06 1.33.05 2.55.12 3.64.2zm-5.6 1.05c.34.66.62 1.38.82 2.14-1.43.3-2.83.67-4.18 1.13.43-1.33 1.07-2.43 1.9-3.27h1.46zM4.1 12.33c1.4-.48 2.87-.87 4.4-.18-.08.2-.15.4-.23.6-1.55 1.5-2.7 3.3-3.4 5.4C3.8 16.5 3 14.5 3 12.3c0-.73.1-1.44.27-2.12.26.05.54.1.83.15zm6.57 7.5c.35-2.1 1.55-3.9 3.14-5.4.3.7.53 1.45.7 2.2-1.43.94-2.67 1.97-3.7 3.1-.05 0-.1 0-.14.1zm5.5-1.46c-.16-.7-.37-1.38-.64-2 1.05-.1 2.13 0 3.2.3-.53 1.34-1.35 2.5-2.56 3.4l-.16.14z"/></svg>
+            </a>
+            <a href="#" class="text-slate-500 hover:text-orange-500 transition-all duration-300 transform hover:-translate-y-1">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="#" class="text-slate-500 hover:text-orange-500 transition-all duration-300 transform hover:-translate-y-1">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+            </a>
+            <a href="#" class="text-slate-500 hover:text-orange-500 transition-all duration-300 transform hover:-translate-y-1">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+        </div>
+
+        <div class="w-full pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-slate-500 text-xs">Build your next hit for free</p>
+            <p class="text-slate-500 text-xs text-center md:text-right">
+                Copyright © 2026 SonicPulse AI. All rights reserved. <br class="md:hidden"> Distributed by <span class="text-orange-500/80">ThemeWagon</span>
+            </p>
+        </div>
+
+    </div>
+</footer>
+
 </body>
 </html>
